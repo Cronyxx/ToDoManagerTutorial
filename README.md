@@ -1,7 +1,7 @@
 # ToDoManager
 My To-do list.
-
-Name: Yeo Tong\n
-Matric Number: A0180313U
-
+<ul>
+<li>Name: Yeo Tong</li>
+<li>Matric Number: A0180313U</li>
+</ul>
 
