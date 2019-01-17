@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
-
+<% flash.each do |name, msg| -%>
+	<%= content_tag :div, msg, class: name %>
+<% end unless flash[:notice]-%>
 <p>
   <strong>Title:</strong>
   <%= @todo_list.title %>
